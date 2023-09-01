@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Mainpage</title>
+</head>
+<body>
+    <div class="popup-overlay" id="popupOverlay">
+        <div class="popup">
+          <span class="close-btn" id="closeBtn"><i class="fa-solid fa-xmark" style="color: #ffffff;"></i></span>
+          <h1 class="popup-heading">Notice</h1>
+          <div class="popup-content">
+            <p>This is the first paragraph.</p>
+            <p>This is the second paragraph.</p>
+            <p>This is the third paragraph.</p>
+          </div>
+          <button class="popup-btn" id="okBtn">OK</button>
+        </div>
+      </div>
+  <div class="main">
+    <div style="text-align: center;">
+    <img src="https://tse4.mm.bing.net/th?id=OIP.sd-16IvIATWaIGOn3anyiwHaEK&pid=Api&P=0&h=180" alt="Company" style="width: 60%; margin-top: 10px;">
+    </div>
+     <!-- s -->
+     <div>
+      <nav class="bottom-nav" style="position: relative; margin-top:10px ; ">
+          <a href="{{ url_for('market_page')}}" class="nav-item">
+            <i class="fa-solid fa-indian-rupee-sign"></i>
+            <span class="logo-name">RECHARGE</span>
+          </a>
+          <a href="{{ url_for('referrals', referral_code = current_user.referral_code) }}" class="nav-item">
+            <i class="fa-solid fa-money-bill-transfer"></i>
+            <span class="logo-name">WITHDRAWAL</span>
+          </a>
+          <a href="{{url_for('team')}}" class="nav-item">
+            <i class="fa-solid fa-user-clock"></i>
+            <span class="logo-name">ONLINE</span>
+          </a>
+          <a href="https://t.me/tatacustmerservice" class="nav-item">
+              <i class="fa-brands fa-telegram"></i>
+            <span class="logo-name">TELEGRAM</span>
+          </a>
+      </div>
+     <!-- s -->
+    <!-- <div class="logo-container">
+     <a href="https://google.com">CHANNEL</a>
+     <a href="">WITHRAWAL</a>
+     <a href="">RECHARGE</a>
+     <a href="">TELEGRAM</a>
+    </div> -->
+    
+    <div class="smartphone-interface">
+      <img src="shoes.img.jpg" alt="Smartphone" style="text-align: center;">
+      <h2>Plan A</h2>
+      <p>Daily income, daily withdrawal</p>
+      <div class="grid-container">
+        <div class="grid-box">Trading Price:1000</div>
+        <div class="grid-box">Daily Income:1000</div>
+        <div class="grid-box">Revenue Cycle:100</div>
+        <div class="grid-box">Total Income:100000</div>
+      </div>
+      <button class="start-button">Start Investing</button>
+    </div>
+    <!-- Repeat the smartphone interface section for the other boxes -->
+  
+  <!-- 2 -->
+  <div class="smartphone-interface" >
+    <img src="fachry-zella-devandra-bNSdIkCBJOs-unsplash.jpg" alt="Smartphone" style="text-align: center; ">
+    <h2>Plan B</h2>
+    <p>Daily income, daily withdrawal</p>
+    <div class="grid-container">
+      <div class="grid-box">Trading Price:1000</div>
+      <div class="grid-box">Daily Income:1000</div>
+      <div class="grid-box">Revenue Cycle:100</div>
+      <div class="grid-box">Total Income:100000</div>
+    </div>
+    <button class="start-button">Start Investing</button>
+  </div>
+  <!-- Repeat the smartphone interface section for the other boxes -->
+
+
+<!-- 3 -->
+<div class="smartphone-interface" >
+  <img src="grailify-EUoTj2yI5LU-unsplash.jpg" alt="Smartphone" style="text-align: center; ">
+  <h2>Plan C</h2>
+  <p>Daily income, daily withdrawal</p>
+  <div class="grid-container">
+    <div class="grid-box">Trading Price:1000</div>
+    <div class="grid-box">Daily Income:1000</div>
+    <div class="grid-box">Revenue Cycle:100</div>
+    <div class="grid-box">Total Income:100000</div>
+  </div>
+  <button class="start-button">Start Investing</button>
+</div>
+<!-- Repeat the smartphone interface section for the other boxes -->
+
+<!-- 4 -->
+<div class="smartphone-interface" >
+  <img src="wp2671872.jpg" alt="Smartphone" style="text-align: center; ">
+  <h2>Plan D</h2>
+  <p>Daily income, daily withdrawal</p>
+  <div class="grid-container">
+    <div class="grid-box">Trading Price:1000</div>
+    <div class="grid-box">Daily Income:1000</div>
+    <div class="grid-box">Revenue Cycle:100</div>
+    <div class="grid-box">Total Income:100000</div>
+  </div>
+  <button class="start-button">Start Investing</button>
+</div>
+<!-- Repeat the smartphone interface section for the other boxes -->
+
+<!-- 5 -->
+<div class="smartphone-interface" >
+  <img src="pexels-terrance-barksdale-11820507.jpg" alt="Smartphone" style="text-align: center; ">
+  <h2>Plan E</h2>
+  <p>Daily income, daily withdrawal</p>
+  <div class="grid-container">
+    <div class="grid-box">Trading Price:1000</div>
+    <div class="grid-box">Daily Income:1000</div>
+    <div class="grid-box">Revenue Cycle:100</div>
+    <div class="grid-box">Total Income:100000</div>
+  </div>
+  <button class="start-button">Start Investing</button>
+</div>
+<!-- Repeat the smartphone interface section for the other boxes -->
+
+<!-- 6 -->
+<div class="smartphone-interface" >
+  <img src="nik-ctDjTTSbtmI-unsplash.jpg" alt="Smartphone" style="text-align: center; ">
+  <h2>Plan F</h2>
+  <p>Daily income, daily withdrawal</p>
+  <div class="grid-container">
+    <div class="grid-box">Trading Price:1000</div>
+    <div class="grid-box">Daily Income:1000</div>
+    <div class="grid-box">Revenue Cycle:100</div>
+    <div class="grid-box">Total Income:100000</div>
+  </div>
+  <button class="start-button">Start Investing</button>
+</div>
+<!-- Repeat the smartphone interface section for the other boxes -->
+
+<!-- 7 -->
+<div class="smartphone-interface" >
+  <img src="pexels-ray-piedra-1468412.jpg" alt="Smartphone" style="text-align: center; ">
+  <h2>Plan G</h2>
+  <p>Daily income, daily withdrawal</p>
+  <div class="grid-container">
+    <div class="grid-box">Trading Price:1000</div>
+    <div class="grid-box">Daily Income:1000</div>
+    <div class="grid-box">Revenue Cycle:100</div>
+    <div class="grid-box">Total Income:100000</div>
+  </div>
+  <button class="start-button">Start Investing</button>
+</div>
+<!-- Repeat the smartphone interface section for the other boxes -->
+
+<!-- 8 -->
+<div class="smartphone-interface" >
+  <img src="edgar-chaparro-Lh-CTP558tc-unsplash.jpg" alt="Smartphone" style="text-align: center; ">
+  <h2>Plan H</h2>
+  <p>Daily income, daily withdrawal</p>
+  <div class="grid-container">
+    <div class="grid-box">Trading Price:1000</div>
+    <div class="grid-box">Daily Income:1000</div>
+    <div class="grid-box">Revenue Cycle:100</div>
+    <div class="grid-box">Total Income:100000</div>
+  </div>
+  <button class="start-button">Start Investing</button>
+</div>
+<!-- Repeat the smartphone interface section for the other boxes -->
+</div>
+  <!-- <div class="footer">
+    <div class="fixed-logo">Home</div>
+    <div class="fixed-logo">Invite</div>
+    <div class="fixed-logo">Team</div>
+    <div class="fixed-logo">Mine</div>
+  </div> -->
+  <!-- <div class="circle-logo"></div> -->
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+      /* fixed nav baar css */
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      
+      .bottom-nav {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: #333;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px;
+      }
+      
+      .nav-item {
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+        font-size: 20px;
+      }
+      
+      .nav-item:hover {
+        color: #0bc9e2;
+      }
+      
+      .logo {
+        width: 30px;
+        height: 30px;
+        margin-bottom: 5px;
+      }
+      
+      .logo-name {
+        margin-top: 5px;
+        font-size: 10px;
+      }
+
+
+      
+    
+      
+     
+  </style>
+</head>
+<body>
+<!-- fixed nav baar -->
+<div>
+<nav class="bottom-nav">
+    <a href="{{ url_for('market_page')}}" class="nav-item">
+        <i class="fa-solid fa-house"></i>
+      <span class="logo-name">HOME</span>
+    </a>
+    <a href="{{ url_for('referrals', referral_code = current_user.referral_code) }}" class="nav-item">
+        <i class="fa-solid fa-user-plus"></i>
+      <span class="logo-name">INVITE</span>
+    </a>
+    <a href="{{url_for('team')}}" class="nav-item">
+        <i class="fa-solid fa-people-group"></i>
+      <span class="logo-name">TEAM</span>
+    </a>
+    <a href="https://t.me/tatacustmerservice" class="nav-item">
+      <i class="fa-solid fa-user"></i>
+      <span class="logo-name">MY</span>
+    </a>
+</div>
+</body>
+</html>
